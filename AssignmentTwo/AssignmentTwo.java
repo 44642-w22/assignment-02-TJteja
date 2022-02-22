@@ -15,16 +15,16 @@ public class AssignmentTwo {
 
 	public static void main(String[] args) {
 	
-		Scanner scan = new Scanner(System.in);
+		Scanner obj = new Scanner(System.in);
 
-		System.out.println("*** Problem 1 ***");
+		System.out.println("=====Problem 1=====");
 
 		ArrayList<String> listobj = new ArrayList<String>();
 		System.out.println("Enter the size");
-		int size = scan.nextInt();
+		int size = obj.nextInt();
 		for (int i = 1; i <= size; i++) {
 			System.out.println("Enter a String");
-			String str = scan.next();
+			String str = obj.next();
 			listobj.add(str);
 		}
 		
@@ -32,14 +32,14 @@ public class AssignmentTwo {
 		PrintCountOfString(listobj);
 		
 		
-		System.out.println("*** Problem 2 ***");
+		System.out.println("=====Problem 2=====");
 
 		System.out.println("Enter the size");
-		int problem2size = scan.nextInt();		
+		int problem2size = obj.nextInt();		
 		ArrayList<String> arr2=new ArrayList<String>();
 		for (int i = 0; i < problem2size; i++) {
 			System.out.println("Enter a string");
-			String str = scan.next();
+			String str = obj.next();
 			arr2.add(str);
 		}
 		
@@ -48,14 +48,14 @@ public class AssignmentTwo {
 		System.out.println("Output(M1):"+stringConcatenation(arr2));
 
 
-		System.out.println("*** Problem 3 ***");
+		System.out.println("=====Problem 3=====");
 
 		System.out.println("Enter the size");
-		int problem3size = scan.nextInt();		
+		int problem3size = obj.nextInt();		
 		ArrayList<Integer> arr=new ArrayList<Integer>();
 		for (int i = 0; i < problem3size; i++) {
 			System.out.println("Enter a integer");
-			int number = scan.nextInt();
+			int number = obj.nextInt();
 			arr.add(number);
 		}
 		
@@ -66,14 +66,14 @@ public class AssignmentTwo {
 
 		
 		
-		System.out.println("*** Problem 4 ***");
+		System.out.println("=====Problem 4=====");
 
 		System.out.println("Enter the size");
-		int problem4size = scan.nextInt();		
+		int problem4size = obj.nextInt();		
 		ArrayList<String> arr4=new ArrayList<String>();
 		for (int i = 0; i < problem4size; i++) {
 			System.out.println("Enter a string");
-			String str = scan.next();
+			String str = obj.next();
 			arr4.add(str);
 		}
 		
@@ -82,14 +82,14 @@ public class AssignmentTwo {
 		System.out.println("Output (A2):"+removeDuplicates(arr4));
 		
 		
-		System.out.println("*** Problem 5 ***");
+		System.out.println("=====Problem 5=====");
 
 		System.out.println("Enter the size");
-		int problem5size = scan.nextInt();		
+		int problem5size = obj.nextInt();		
 		ArrayList<String> arr5=new ArrayList<String>();
 		for (int i = 0; i < problem5size; i++) {
 			System.out.println("Enter a string");
-			String str = scan.next();
+			String str = obj.next();
 			arr5.add(str);
 		}
 		
@@ -98,14 +98,14 @@ public class AssignmentTwo {
 		System.out.println("Output:"+takeFirstAndLastCharacter(arr5));
 
 		
-		System.out.println("*** Problem 6 ***");
+		System.out.println("=====Problem 6=====");
 
 		System.out.println("Enter the size");
-		int problem6size = scan.nextInt();		
+		int problem6size = obj.nextInt();		
 		ArrayList<String> arr6=new ArrayList<String>();
 		for (int i = 0; i < problem6size; i++) {
 			System.out.println("Enter a string");
-			String str = scan.next();
+			String str = obj.next();
 			arr6.add(str);
 		}
 		
