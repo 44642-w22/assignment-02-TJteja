@@ -2,10 +2,10 @@ package AssignmentTwo;
 import java.util.*;
 public class ProblemFive {
 
-	public void ProblemFive() {
+	public void ProblemFive(Scanner obj) {
 		// TODO Auto-generated constructor stub
 
-		Scanner obj = new Scanner(System.in);
+		
 		System.out.println("   \n");
 		System.out.println("===========Problem Five===========");
 		System.out.print("Enter  the Number of Strings: ");

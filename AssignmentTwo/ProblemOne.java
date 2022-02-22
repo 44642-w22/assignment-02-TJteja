@@ -4,11 +4,11 @@ public class ProblemOne {
 
 	
 
-			public void ProblemOne() {
+			public void ProblemOne(Scanner obj) {
 				// TODO Auto-generated method stub
 				// TODO Auto-generated method stub
 				System.out.println("===========Problem One===========");
-				Scanner obj = new Scanner(System.in);
+				
 				System.out.print("Enter the Number of Strings: ");
 				int n = obj.nextInt();
 				String[] alist = new String[n];

@@ -2,9 +2,9 @@ package AssignmentTwo;
 import java.util.*;
 public class ProblemThree {
 
-	public void ProblemThree() {
+	public void ProblemThree(Scanner obj) {
 		// TODO Auto-generated constructor stub
-		Scanner obj = new Scanner(System.in);
+	
 		System.out.println("   \n");
 		System.out.println("===========Problem Three===========");
 		System.out.print("Enter Number of ements:- ");
